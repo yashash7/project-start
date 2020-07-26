@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./index.css">
+        <title>Welcome on board</title>
+    </head>
+
+    <body onload="greet(), typeWriter()">
+        <header>
+            <i class="fas fa-smile"></i>&nbsp;
+            <code id="greet" >  </code>
+            <code id="typer" > </code>
+            
+        </header>
+        
+        <div class="search">
+            <h2><i class="fas fa-user-secret" style="font-size: xx-large;" id="wel">&nbsp; Welcome Yashashchandra Kollu</i></h2><br>
+            <form action="https://duckduckgo.com/?q=%s" method="GET">
+                <input type="text" name="q" placeholder="Search here with 'Duck Duck Go'" autofocus>
+                <button type="submit" title="Search with Duck Duck Go!"><i class="fa fa-search"></i></button>  
+            </form><br>
+            <a href="https://spreadprivacy.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/color/25/000000/duckduckgo.png" alt="duckduckgo-logo" />&nbsp; Know more about 'Duck Duck Go'</a><br><br>
+            <p style="text-align: center; font-size: x-large;"> or </p>
+            <span>
+                <!--Google-->
+                <a href="https://www.google.com/?gws_rd=ssl">
+                    <img src="https://img.icons8.com/color/70/000000/google-logo.png" alt="google-logo" class="se w3-hover-opacity"/>
+                </a>
+                <!--Bing-->
+                <a href="https://www.bing.com/">
+                    <img src="https://img.icons8.com/color/70/000000/bing.png" alt="bing-logo" class="se w3-hover-opacity" />
+                </a>
+                <!--Yahoo-->
+                <a href="https://in.yahoo.com/">
+                    <img src="https://img.icons8.com/color/70/000000/yahoo.png" alt="yahoo-logo" class="se w3-hover-opacity" />
+                </a>
+                <!--Quora-->
+                <a href="https://www.quora.com/">
+                    <img src="https://img.icons8.com/doodle/70/000000/quora--v1.png" alt="quora-logo" class="se w3-hover-opacity" />
+                </a>
+            </span><br><br><br>
+            <a href="#widgets"><i class="fas fa-angle-double-down w3-xxlarge w3-hover-opacity" title="Click or scroll down to see the widgets" id="scrl"></i></a>
+        </div>
+        <div>
+            <h3 id="widgets">Browse these Quick Widgets</h3>
+            <table>
+                <tr>
+                    <th><iframe width="250" height="300" src="https://fast.com/" frameborder="0" class="wid"></iframe></th>
+                    <th><iframe width="250" height="300" src="./soon.html" frameborder="0" class="wid" id="x" title="coming soon"></iframe></th>
+                    <th><iframe width="250" height="300" src="./soon.html" frameborder="0" class="wid" id="x" title="coming soon"></iframe></th>
+                    <th><iframe width="250" height="300" src="./soon.html" frameborder="0" class="wid" id="x" title="coming soon"></iframe></th>
+                </tr>
+                <tr>
+                    <td><a href="https://fast.com/" target="_blank" rel="noopener noreferrer">Fast: Powered by Netflix</a></td>
+                </tr>
+            </table>
+        </div><br><br><br>
+
+        <!--Footer-->
+        <footer class="footer w3-display-bottom">
+            <code> &copy; Yashashchandra KOllu - 2020</code>
+            <code style="margin-left: 40%;">powered by 
+                <a href="https://duckduckgo.com/"> DuckDuckGO</a> |
+                <a href="https://icons8.com/icons"> Icons8</a> |
+                <a href="https://fontawesome.com/"> Font-Awesome</a>
+            </code>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/bd3e1b0c95.js" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>

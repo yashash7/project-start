@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(22, 22, 22);
+    color: antiquewhite;
+}
+h2 {
+    color: white;
+}
+#wel {
+    margin-top: 70px;
+}
+.search {
+    color: white;
+    margin: 97px auto ;
+    text-align: center;
+}
+
+input[type=text] {
+    background: transparent;
+    border: 2px solid antiquewhite;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-size: xx-large;
+    outline: none;
+    padding: 7px;
+    width: 70%;
+}
+input[type=text]:focus {
+    outline: none;
+    border-color: azure;
+    box-shadow: 0 0 4px 0 azure;
+}
+button {
+    background: transparent;
+    border: 2px solid antiquewhite;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    color: thistle;
+    font-size: xx-large;
+    padding: 7px;
+}
+
+header {
+    font-size: x-large;
+    padding: 3%;
+    padding-left: 2%;
+}
+code {
+    color: burlywood;
+}
+
+#typer {
+    color: burlywood;
+}
+
+.se {
+    margin: 16px;
+}
+.wid {
+    border: 2px solid transparent;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 16px;
+    margin: 55px;
+    margin-bottom: 7px;
+}
+#widgets {
+    padding-left: 2%;
+}
+
+td {
+    font-size: large;
+    text-align: center;
+}
+
+#scrl {
+    transition-duration: 3s;
+}
+#scrl:hover {
+    opacity: 7px;
+    transition-duration: 7ms;
+}
+.footer {
+    bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: x-large;
+    height: auto;
+    padding: 7px;
+    text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+    #x {
+        display: none;
+    }
+    input[type=text], button {
+        font-size: x-small;
+    }
+}
