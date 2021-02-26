@@ -14,7 +14,7 @@ function greet() {
 }
 
 var i = 0;
-var txt = 'Sir, Have A Great Day!'; /* The text */
+var txt = 'Amigo, Have A Great Day!'; /* The text */
 //var txt2 = 'Welcome Yashashchandra';
 var speed = 97; /* The speed/duration of the effect in milliseconds */
 
